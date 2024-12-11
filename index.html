@@ -1,214 +1,133 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Chakka Satya Sai Portfilio</title>
+		<title>Portfolio - Satya Sai Chakka</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.container {
+				display: flex;
+				flex-direction: row;
+				align-items: flex-start;
+				gap: 20px;
+				margin: 20px;
+			}
+
+			.image-section {
+				flex: 1;
+				text-align: center;
+			}
+
+			.image-section img {
+				max-width: 100%;
+				height: auto;
+				border-radius: 10px;
+			}
+
+			.info-section {
+				flex: 2;
+			}
+
+			.info-section h3 {
+				margin-top: 0;
+			}
+
+			.social-icons {
+				margin-top: 20px;
+				display: flex;
+				gap: 10px;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+		<div id="wrapper">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Chakka Satya Sai</h1><br>
-						<h2> Masters In Data Science</h2>
-						
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+			<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo">PORTFOLIO</a>
+			</header>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">PORTFOLIO</a>
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+                    <li class="active"><a href="index.html">About Me</a></li>
+					<li><a href="projects.html">PROJECTS</a></li>
+					<li><a href="Skills.html">SKILLS</a></li>
+					<li><a href="RESUME.html">RESUME</a></li>
+					<li><a href="Contact.html">CONTACT</a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="https://github.com/saichakka10" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+				<section class="post">
+					<header class="major">
+						<h1>About Me</h1>
 					</header>
 
-				<!-- Nav -->
-					<nav id="nav" >
-						<ul class="links" >
-							<li><a href="About.html">About Me</a></li>
-							<li class="active" ><a href="index.html">PROJECTS</a></li>
-							<li><a href="Skills.html">SKILLS</a></li>
-							<li><a href="RESUME.html">RESUME</a></li>
-							<li><a href="Contact.html">CONTACT</a></li>
-						</ul>
-						<ul class="icons">
-							
-							<li><a href="https://github.com/saichakka10" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+					<div class="container">
+						<div class="image-section">
+							<img src="images/satyasai.jpg" alt="Satya Sai Chakka" />
+							<h2>Satya Sai Chakka</h2>
+						</div>
 
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Featured Post 
-							<article class="post featured">
-								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>
-							</article> -->
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2>Ultra Sound<br />
-										Nerve Segmentation</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/DataCleaning.jpg" alt="" /></a>
-									<p>The project leverages ultrasound imaging and the U-Net deep learning architecture to assist in clinical surgeries by identifying nerve abnormalities.
-										By accurately segmenting and predicting these abnormalities, the solution enables precise treatment planning,
-										reducing on high-dose painkillers and minimising invasive procedures, thereby improving patient recovery outcomes . </p>
-									<ul class="actions special">
-										<li><a href="https://github.com/saichakka10" class="button">Project Details</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">Churn Prediction<br />
-										Using ANN</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/Customer_Churn_Prediction.png" alt="" /></a>
-									<p>This project utilizes an Artificial Neural Network (ANN) to predict customer churn and estimate salaries based on features like credit score, geography, age, and account activity. 
-										It supports targeted retention strategies and helps banks identify potential loan customers. 
-										The solution includes data preprocessing, feature engineering, and hyperparameter tuning for optimal performance. 
-										Deployed on Streamlit Cloud, it provides a user-friendly interface for real-time predictions, streamlining business decisions</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/saichakka10/Churn-Prediction-Using-ANN" class="button">Project Details</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2>Movie Reviews<br />
-										Using Simple RNN </a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/movie-review.jpeg" alt="" /></a>
-									<p></p>
-									<ul class="actions special">
-										<li><a href="https://github.com/saichakka10" class="button">Project Details</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2>Automatic file Sorter<br />
-										Using Python</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/Filesorting.jpg" alt="" /></a>
-									<p>This Automatic File sorter compares all the files in the mentioned location and creates a folder for each file type and moves those files to their respective folder types.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/saichakka10" class="button">Project Details</a></li>
-									</ul>
-								</article>
-								<!--<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>-->
+						<div class="info-section">
+							<section>
+								<h3>Introduction</h3>
+								<p>Myself Satya Sai. Striving to Become a Skilled Data Scientist. Throughout the years, I have gained and refined relevant skills and knowledge in Data Science and Machine Learning. I am confident that my ability to evaluate, design, and execute advanced algorithms and solutions will significantly enhance both the organization's success and my personal growth.</p>
 							</section>
-
-						
-
+							<section>
+								<h3>Achievements</h3>
+								<p>National Scholarship Recipient: Earned the National Scholarship for demonstrating outstanding academic performance during my Bachelor's degree.</p>
+							</section>
+							<section>
+								<h3>Certifications</h3>
+								<ul>
+									<li>HackerRank: Earned 4-stars silver badge and Basic SQL Certification.</li>
+									<li>PrepInsta: Achieved AI-ML, Python, and SQL Certifications.</li>
+									<li>Udemy: Completed certifications in Data Science, Machine Learning, Deep Learning, and NLP.</li>
+								</ul>
+							</section>
+							<div class="social-icons">
+								<a href="https://linkedin.com/in/satya-sai-chakka" target="_blank">
+									<img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=plastic" height="22" alt="LinkedIn" />
+								</a>
+								<a href="https://www.hackerrank.com/profile/satyasai_ch10" target="_blank">
+									<img src="https://img.shields.io/static/v1?message=HackerRank&logo=hackerrank&label=&color=2EC866&logoColor=white&labelColor=&style=plastic" height="22" alt="HackerRank" />
+								</a>
+								<a href="https://saichakka10.github.io/" target="_blank">
+									<img src="https://img.shields.io/static/v1?message=Portfolio&logo=github&label=&color=181717&logoColor=white&labelColor=&style=plastic" height="22" alt="Portfolio" />
+								</a>
+								<a href="https://github.com/saichakka10" target="_blank">
+									<img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&labelColor=&style=plastic" height="22" alt="GitHub" />
+								</a>
+							</div>
+						</div>
 					</div>
-
-				<!-- Footer 
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>-->
-						<!--
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
+				</section>
 			</div>
-		-->
+
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+			</div>
+		</div>
+
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
